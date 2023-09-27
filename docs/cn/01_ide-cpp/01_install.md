@@ -1,8 +1,8 @@
 # ide-cpp 安装
 ## Windows 安装
 ### 下载
-[https://github.com/ppaitech/vscode-ide/releases/download/ide-cpp-v1.0.0/vs-code-ide-cpp-win32-x64.exe](https://github.com/ppaitech/vscode-ide/releases/download/ide-cpp-v1.0.0/vs-code-ide-cpp-win32-x64.exe)  
-[https://github.com/ppaitech/vscode-ide/releases/download/ide-cpp-v1.0.0/ide-cpp-extensions.zip](https://github.com/ppaitech/vscode-ide/releases/download/ide-cpp-v1.0.0/ide-cpp-extensions.zip)
+[vs-code-ide-cpp-win32-x64.exe](https://github.com/ppntai/vscode-ide/releases/download/ide-cpp-v1.0.0/vs-code-ide-cpp-win32-x64.exe)  
+[ide-cpp-extensions.zip](https://github.com/ppntai/vscode-ide/releases/download/ide-cpp-v1.0.0/ide-cpp-extensions.zip)
 
 ### 安装 ide-cpp
 双击vs-code-ide-cpp-win32-x64.exe安装,安装完成后的图标如下  
