@@ -100,8 +100,9 @@ hello world
 
 ![1](/01_ide-cpp/01/6.jpg)
 
-
-### ide-cpp Extension
+## McOS安装
+参考上面的安装过程
+## ide-cpp Extension
 #### C/C++ Extension Pack
 Cpp support
 Name: C/C++ Extension Pack
