@@ -50,7 +50,7 @@ https://github.com/ppntai/vscode-ide/releases/tag/ide-java-v1.0.0
 ```
 安装扩展
 安装 ms-vscode.cpptools扩展
-启动ide-cpp-->Extensions-->...-->Install From VSIX-->选择所有的redhat.java扩展,ide-java会选择合适平台的扩展安装
+启动ide-java-->Extensions-->...-->Install From VSIX-->选择所有的redhat.java扩展,它会根据当前的操作系统选择对应的扩展安装
 ![1](/01_ide-cpp/01/1.jpg)
 
 安装其他扩展
