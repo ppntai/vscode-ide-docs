@@ -1,0 +1,56 @@
+[
+  {
+    "title": "01_ide-cpp",
+    "collapsable": false,
+    "children": [
+      "01_ide-cpp/01_install.md",
+      "01_ide-cpp/02_usage.md"
+    ]
+  },
+  {
+    "title": "02_ide-java",
+    "collapsable": false,
+    "children": [
+      "02_ide-java/01_install.md",
+      "02_ide-java/02_usage.md"
+    ]
+  },
+  {
+    "title": "03_ide-jupyter",
+    "collapsable": false,
+    "children": [
+      "03_ide-jupyter/01_install.md",
+      "03_ide-jupyter/02_usage.md"
+    ]
+  },
+  {
+    "title": "04_ide-go",
+    "collapsable": false,
+    "children": [
+      "04_ide-go/01_install.md",
+      "04_ide-go/02_usage.md"
+    ]
+  },
+  {
+    "title": "05_ide-rust",
+    "collapsable": false,
+    "children": [
+      "05_ide-rust/01_install.md",
+      "05_ide-rust/02_usage.md"
+    ]
+  },
+  {
+    "title": "07_ide-markdown",
+    "collapsable": false,
+    "children": [
+      "07_ide-markdown/1.md"
+    ]
+  },
+  {
+    "title": "08_ide-rest-client",
+    "collapsable": false,
+    "children": [
+      "08_ide-rest-client/1.md"
+    ]
+  }
+]

@@ -49,7 +49,7 @@ https://github.com/ppntai/vscode-ide/releases/tag/ide-java-v1.0.0
 ├── vscjava.vscode-spring-initializr-0.11.2023070103.vsix
 ```
 安装扩展
-安装 ms-vscode.cpptools扩展
+安装 redhat.java扩展
 启动ide-java-->Extensions-->...-->Install From VSIX-->选择所有的redhat.java扩展,它会根据当前的操作系统选择对应的扩展安装
 ![1](/01_ide-cpp/01/1.jpg)
 
