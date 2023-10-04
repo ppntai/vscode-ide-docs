@@ -56,13 +56,23 @@ https://github.com/ppntai/vscode-ide/releases/
 编辑配置文件C:\Users\Administrator\.vside-jupyter\argv.json
 添加
 ```
-"enable-proposed-api":["ms-python.python","ms-toolsai.jupyter"]
+"enable-proposed-api":["ms-python.python","ms-toolsai.jupyter","ms-toolsai.jupyter-renderers","ms-vscode-remote.remote-containers",
+	"ms-vscode-remote.remote-ssh","ms-vscode-remote.remote-wsl","ms-vscode.remote-server"],
 ```
 修改后的内容如下
 ```
 {
-	"crash-reporter-id": "0b768f3c-181c-4b93-829f-4ae65166b654",
-	"enable-proposed-api":["ms-python.python","ms-toolsai.jupyter"]
+
+
+	// Allows to disable crash reporting.
+	// Should restart the app if the value is changed.
+	"enable-crash-reporter": true,
+
+	// Unique id used for correlating crash reports sent from this instance.
+	// Do not edit this value.
+	"crash-reporter-id": "74f88bc1-d985-4264-93bc-141d4ed475a8",
+	"enable-proposed-api":["ms-python.python","ms-toolsai.jupyter","ms-toolsai.jupyter-renderers","ms-vscode-remote.remote-containers",
+	"ms-vscode-remote.remote-ssh","ms-vscode-remote.remote-wsl","ms-vscode.remote-server"],
 }
 ```
 
