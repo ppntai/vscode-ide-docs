@@ -9,7 +9,7 @@ https://github.com/ppntai/vscode-ide/releases/tag/ide-rust-v1.0.0
 
 ### 安装 ide-rust
 双击vs-code-ide-rust-win32-x64.exe安装,安装完成后的图标如下  
-![1](/05_ide-rust/01_install_files/1.jpg)
+![1](/01_install_files/1.jpg)
 
 ### 安装扩展
 解压ide-rust-extensions.zip,解压后的扩展如下
@@ -79,7 +79,7 @@ C:\Users\Administrator\.vside-rust\argv.json
 
 使用Developer Tools检查其他错误  
 Ctrl+Shift+P-->Developer: Toggle Developer Tools
-![3](/05_ide-rust/01_install_files/3.jpg)
+![3](/01_install_files/3.jpg)
 ### 编写代码测试
 前提是已经安装了rust环境
 ```

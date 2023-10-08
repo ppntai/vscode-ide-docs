@@ -94,7 +94,7 @@ print("hello")
 ## McOS安装
 参考上面的安装过程
 ## ide-jupyter Extension
-#### Jupyter Support
+#### python Support
 
 Name: Python  
 Id: ms-python.python  
@@ -110,6 +110,7 @@ Version: 2023.7.10
 Publisher: Microsoft  
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance  
 
+#### Jupyter Support
 Name: Jupyter  
 Id: ms-toolsai.jupyter  
 Description: Jupyter notebook support, interactive programming and computing that supports Intellisense, debugging and more.  

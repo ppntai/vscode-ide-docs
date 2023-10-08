@@ -40,6 +40,13 @@
     ]
   },
   {
+    "title": "06_ide-python",
+    "collapsable": false,
+    "children": [
+      "06_ide-python/01_install.md"
+    ]
+  },
+  {
     "title": "07_ide-markdown",
     "collapsable": false,
     "children": [
@@ -51,6 +58,20 @@
     "collapsable": false,
     "children": [
       "08_ide-rest-client/1.md"
+    ]
+  },
+  {
+    "title": "09_ide-vue",
+    "collapsable": false,
+    "children": [
+      "09_ide-vue/01_install.md"
+    ]
+  },
+  {
+    "title": "10_ide-ssh-client",
+    "collapsable": false,
+    "children": [
+      "10_ide-ssh-client/01_install.md"
     ]
   }
 ]

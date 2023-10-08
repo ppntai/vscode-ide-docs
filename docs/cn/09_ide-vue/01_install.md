@@ -9,7 +9,7 @@ https://github.com/ppntai/vscode-ide/releases/tag/ide-rust-v1.0.0
 
 ### 安装 ide-rust
 双击vs-code-ide-rust-win32-x64.exe安装,安装完成后的图标如下  
-![1](/05_ide-rust/01_install_files/1.jpg)
+![1](/01_install_files/1.jpg)
 
 ### 安装扩展
 解压ide-rust-extensions.zip,解压后的扩展如下
@@ -79,7 +79,7 @@ C:\Users\Administrator\.vside-rust\argv.json
 
 使用Developer Tools检查其他错误  
 Ctrl+Shift+P-->Developer: Toggle Developer Tools
-![3](/05_ide-rust/01_install_files/3.jpg)
+![3](/01_install_files/3.jpg)
 ### 编写代码测试
 前提是已经安装了rust环境
 ```
@@ -98,42 +98,73 @@ Hello World
 ## McOS安装
 参考上面的安装过程
 
-## ide-rust Extension
-#### rust Support
-Name: Rust Extension Pack  
-Id: swellaby.rust-pack  
-Description: Extension Pack for Rust  
-Version: 0.3.3  
-Publisher: Swellaby  
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=swellaby.rust-pack 
+## ide-vue Extension
+Name: Bookmarks
+Id: alefragnani.Bookmarks
+Description: Mark lines and jump to them
+Version: 13.4.2
+Publisher: Alessandro Fragnani
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks
 
-Name: rust-analyzer  
-Id: rust-lang.rust-analyzer  
-Description: Rust language support for Visual Studio Code  
-Version: 0.4.1592  
-Publisher: rust-lang  
+Name: Formatting Toggle
+Id: tombonnike.vscode-status-bar-format-toggle
+Description: A VS Code extension that allows you to toggle formatting settings ON and OFF with a simple click.
+Version: 3.2.0
+Publisher: tombonnike
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle
 
-Name: crates  
-Id: serayuzgur.crates  
-Description: Helps Rust developers managing dependencies with Cargo.toml.  
-Version: 0.6.0  
-Publisher: serayuzgur  
+Name: JavaScript (ES6) code snippets
+Id: xabikos.JavaScriptSnippets
+Description: Code snippets for JavaScript in ES6 syntax
+Version: 1.8.0
+Publisher: charalampos karypidis
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets
 
+Name: jumpy
+Id: wmaurer.vscode-jumpy
+Description: Jumpy provides fast cursor movement, inspired by Atom's package of the same name.
+Version: 0.3.1
+Publisher: wmaurer
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=wmaurer.vscode-jumpy
 
-Name: Better TOML  
-Id: bungcip.better-toml  
-Description: Better TOML Language support  
-Version: 0.3.2
-Publisher: bungcip  
+Name: Material Icon Theme
+Id: PKief.material-icon-theme
+Description: Material Design Icons for Visual Studio Code
+Version: 4.31.0
+Publisher: Philipp Kief
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
 
-Name: Code Runner  
-Id: formulahendry.code-runner  
-Description: Run C, C++, Java, JS, PHP, Python, Perl, Ruby, Go, Lua, Groovy, PowerShell, CMD, BASH, F#, C#, VBScript, TypeScript, CoffeeScript, Scala, Swift, Julia, Crystal, OCaml, R, AppleScript, Elixir, VB.NET, Clojure, Haxe, Obj-C, Rust, Racket, Scheme, AutoHotkey, AutoIt, Kotlin, Dart, Pascal, Haskell, Nim, D, Lisp, Kit, V, SCSS, Sass, CUDA, Less, Fortran, Ring, Standard ML, Zig  
-Version: 0.12.0  
-Publisher: formulahendry  
+Name: Night Owl
+Id: sdras.night-owl
+Description: A VS Code theme for the night owls out there. Now introducing Light Owl theme for daytime usage. Decisions were based on meaningful contrast for reading comprehension and for optimal razzle dazzle. ✨
+Version: 2.0.1
+Publisher: sarah.drasner
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=sdras.night-owl
 
-Name: Material Icon Theme  
-Id: PKief.material-icon-theme  
-Description: Material Design Icons for Visual Studio Code  
-Version: 4.28.0  
-Publisher: PKief  
+Name: npm Intellisense
+Id: christian-kohler.npm-intellisense
+Description: Visual Studio Code plugin that autocompletes npm modules in import statements
+Version: 1.4.5
+Publisher: Christian Kohler
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense
+
+Name: Prettier - Code formatter
+Id: esbenp.prettier-vscode
+Description: Code formatter using prettier
+Version: 10.1.0
+Publisher: Prettier
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+
+Name: Vetur
+Id: octref.vetur
+Description: Vue tooling for VS Code
+Version: 0.37.3
+Publisher: Pine Wu
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=octref.vetur
+
+Name: Vue Language Features (Volar)
+Id: Vue.volar
+Description: Language support for Vue 3
+Version: 1.8.16
+Publisher: Vue
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=Vue.volar
