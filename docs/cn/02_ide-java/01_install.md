@@ -62,6 +62,36 @@ https://github.com/ppntai/vscode-ide/releases/tag/ide-java-v1.0.0
 选择Material Icon Theme-->Set File Icon Theme-->选择它的图标
 ![](/02_ide-java/01/3.jpg)
 
+### 配置ide-java
+编辑配置文件
+```
+C:\Users\Administrator\.vside-python\argv.json
+```
+添加
+```
+	"enable-proposed-api":["ms-vscode-remote.remote-containers","ms-vscode-remote.remote-ssh","ms-vscode-remote.remote-wsl","ms-vscode.remote-server"]
+```
+添加后的内容如下
+```
+{
+	// Use software rendering instead of hardware accelerated rendering.
+	// This can help in cases where you see rendering issues in VS Code.
+	// "disable-hardware-acceleration": true,
+
+	// Allows to disable crash reporting.
+	// Should restart the app if the value is changed.
+	"enable-crash-reporter": true,
+
+	// Unique id used for correlating crash reports sent from this instance.
+	// Do not edit this value.
+	"crash-reporter-id": "f52a60d6-a354-4274-9f22-bd2502c54da9",
+	"enable-proposed-api":["ms-vscode-remote.remote-containers","ms-vscode-remote.remote-ssh","ms-vscode-remote.remote-wsl","ms-vscode.remote-server"]
+}
+```
+
+使用Developer Tools检查其他错误  
+Ctrl+Shift+P-->Developer: Toggle Developer Tools
+![3](/05_ide-rust/01_install_files/3.jpg)
 ### 编写代码测试
 前提是已经安装了cpp环境,例如mingw或者cywin
 c
