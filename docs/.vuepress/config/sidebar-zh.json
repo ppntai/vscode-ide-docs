@@ -50,7 +50,8 @@
     "title": "07_ide-markdown",
     "collapsable": false,
     "children": [
-      "07_ide-markdown/1.md"
+      "07_ide-markdown/01_install.md",
+      "07_ide-markdown/02_usage.md"
     ]
   },
   {

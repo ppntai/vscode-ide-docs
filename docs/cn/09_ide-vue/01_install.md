@@ -9,7 +9,7 @@ https://github.com/ppntai/vscode-ide/releases/tag/ide-rust-v1.0.0
 
 ### 安装 ide-rust
 双击vs-code-ide-rust-win32-x64.exe安装,安装完成后的图标如下  
-![1](/01_install_files/1.jpg)
+![](01_install_files/2.jpg)
 
 ### 安装扩展
 解压ide-rust-extensions.zip,解压后的扩展如下
@@ -92,7 +92,7 @@ fn main(){
 [Running] cd "f:\code\rust\rust-study\rust-basic-study\rust-hello-world\" && rustc hello_world.rs && "f:\code\rust\rust-study\rust-basic-study\rust-hello-world\"hello_world
 Hello World
 ```
-![2](/01_install_files/2.jpg)
+![](01_install_files/1.jpg)
 
 
 ## McOS安装

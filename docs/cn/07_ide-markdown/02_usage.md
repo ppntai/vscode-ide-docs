@@ -1,19 +1,8 @@
-Name: Markdown Preview Enhanced
-Id: shd101wyy.markdown-preview-enhanced
-Description: Markdown Preview Enhanced ported to vscode
-Version: 0.7.10
-Publisher: Yiyi Wang
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced
+# usage
 
-Name: Markdown All in One
-Id: yzhang.markdown-all-in-one
-Description: All you need to write Markdown (keyboard shortcuts, table of contents, auto preview and more)
-Version: 3.5.1
-Publisher: Yu Zhang
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one
-
+## 设置粘贴图片保持位置
 Visual Studio Code支持Copy Files: Destination的支持的描述
-```
+
 Markdown › Copy Files: Destination
 Defines where files copied created by drop or paste should be created. This is a map from globs that match on the Markdown document to destinations.
 
@@ -25,7 +14,7 @@ ${documentExtName} — The extension of the Markdown document, for example: md.
 ${documentDirName} — The name of the Markdown document's parent directory.
 ${documentWorkspaceFolder} — The workspace folder for the Markdown document, for example: /Users/me/myProject. This is the same as ${documentDirName} if the file is not part of a workspace.
 ${fileName} — The file name of the dropped file, for example: image.png.
-```
+
 
 这是 Visual Studio Code 的一个设置项，关于在 Markdown 文件中通过拖放或粘贴插入文件时，这些文件应该被保存到的位置。
 
@@ -77,7 +66,7 @@ ${fileName} — The file name of the dropped file, for example: image.png.
 简而言之，这个设置定义了在 Markdown 文件中粘贴或拖拽文件时，这些文件应该被保存到的位置。而这个位置是基于当前编辑的文件名和目录以及被粘贴文件的原始文件名来确定的。
 
 
-快捷键Markdown All in One
-Ctrl+M 插入内联数学公式
-Ctrl+I 插入斜体
-Ctrl+B 插入粗体
+## 快捷键Markdown All in One
+Ctrl+M 插入内联数学公式  
+Ctrl+I 插入斜体  
+Ctrl+B 插入粗体  
