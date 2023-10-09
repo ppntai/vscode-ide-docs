@@ -279,6 +279,13 @@ Version: 0.102.0
 Publisher: Microsoft  
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh  
 
+#### lombok support
+Name: Lombok Annotations Support for VS Code  
+Id: vscjava.vscode-lombok  
+Description: Refactor code with Lombok annotations, or remove Lombok annotations with   actual methods.  
+Version: 1.1.0  
+Publisher: Microsoft  
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-lombok  
 
 #### Theme support
 Name: Material Icon Theme  
