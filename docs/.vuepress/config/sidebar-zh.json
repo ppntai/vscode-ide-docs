@@ -58,7 +58,8 @@
     "title": "08_ide-rest-client",
     "collapsable": false,
     "children": [
-      "08_ide-rest-client/1.md"
+      "08_ide-rest-client/01_install.md",
+      "08_ide-rest-client/02_usage.md"
     ]
   },
   {
