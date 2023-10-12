@@ -75,5 +75,12 @@
     "children": [
       "10_ide-ssh-client/01_install.md"
     ]
+  },
+  {
+    "title": "99_other-plugins",
+    "collapsable": false,
+    "children": [
+      "99_other-plugins/other_plugins.md"
+    ]
   }
 ]

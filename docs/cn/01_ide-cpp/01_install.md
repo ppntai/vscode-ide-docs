@@ -48,6 +48,37 @@
 选择Material Icon Theme-->Set File Icon Theme-->选择它的图标
 ![1](/01_ide-cpp/01/4.jpg)
 
+### 配置ide-cpp
+编辑配置文件
+```
+C:\Users\Administrator\.vside-cpp\argv.json
+```
+添加
+```
+   "enable-proposed-api":["ms-vscode.cpptools","ms-vscode-remote.remote-containers","ms-vscode-remote.remote-ssh","ms-vscode-remote.remote-wsl","ms-vscode.remote-server"]
+```
+添加后的内容如下
+```
+{
+	// Use software rendering instead of hardware accelerated rendering.
+	// This can help in cases where you see rendering issues in VS Code.
+	// "disable-hardware-acceleration": true,
+
+	// Allows to disable crash reporting.
+	// Should restart the app if the value is changed.
+	"enable-crash-reporter": true,
+
+	// Unique id used for correlating crash reports sent from this instance.
+	// Do not edit this value.
+	"crash-reporter-id": "c97e6d52-b6e4-4a63-8901-6018684d2ae6",
+
+   "enable-proposed-api":["ms-vscode.cpptools","ms-vscode-remote.remote-containers","ms-vscode-remote.remote-ssh","ms-vscode-remote.remote-wsl","ms-vscode.remote-server"]
+}
+```
+
+使用Developer Tools检查其他错误  
+Ctrl+Shift+P-->Developer: Toggle Developer Tools
+![3](/05_ide-rust/01_install_files/3.jpg)
 ### 编写代码测试
 前提是已经安装了cpp环境,例如mingw或者cywin
 c
@@ -209,3 +240,4 @@ Description: Material Design Icons for Visual Studio Code
 Version: 4.28.0
 Publisher: Philipp Kief
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
+
