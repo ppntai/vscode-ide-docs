@@ -70,10 +70,10 @@
     ]
   },
   {
-    "title": "10_ide-ssh-client",
+    "title": "11_ide-ssh-client",
     "collapsable": false,
     "children": [
-      "10_ide-ssh-client/01_install.md"
+      "11_ide-ssh-client/01_install.md"
     ]
   },
   {
