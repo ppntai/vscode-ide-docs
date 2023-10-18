@@ -70,6 +70,13 @@
     ]
   },
   {
+    "title": "10_ide-photos",
+    "collapsable": false,
+    "children": [
+      "10_ide-photos/01_install.md"
+    ]
+  },
+  {
     "title": "11_ide-ssh-client",
     "collapsable": false,
     "children": [
