@@ -1,49 +1,51 @@
-# ide-rest-client 安装
-## Windows 安装
-### 下载
-https://github.com/ppntai/vscode-ide/releases/
-下载两个文件,分别是
-- VSCode-ide-rest-client-win32-x64.zip
-- ide-rest-client-extensions.zip
+# ide-rest-client 安装指南
 
+## 1. Windows 安装流程
 
-### 安装 ide-rest-client
-解压后双击ide-rest-client.exe启动,安装完成后的图标如下  
-![2](/08_ide-rest-client/01_install_files/2.jpg)
+### 1.1 下载文件
+前往 [Github Release 页面](https://github.com/ppntai/vscode-ide/releases/)，下载以下两个文件：
+- `VSCode-ide-rest-client-win32-x64.zip`
+- `ide-rest-client-extensions.zip`
 
-### 安装扩展
-解压ide-rest-client-extensions.zip,解压后的扩展如下
+### 1.2 安装 ide-rest-client
+- 解压下载的ZIP文件。
+- 双击 `ide-rest-client.exe` 文件进行启动。
+- 启动后的图标如下：  
+![IDE REST Client 图标](/08_ide-rest-client/01_install_files/2.jpg)
+
+### 1.3 扩展安装
+
+#### 扩展文件列表
+解压 `ide-rest-client-extensions.zip` 后，您将看到以下扩展：
 ```
-.
 ├── humao.rest-client-0.25.1.vsix
 ```
-安装扩展
-安装 rest-client扩展
-启动ide-rest-client-->Extensions-->...-->Install From VSIX-->选择所有的rest-client扩展,它会根据当前的操作系统选择对应的扩展安装
-![1](/01_ide-cpp/01/1.jpg)
 
-安装其他扩展
-过程和上面相似,选择其他的所有扩展进行安装
+#### 安装扩展
+1. 启动 ide-rest-client。
+2. 进入 Extensions。
+3. 选择 `...` → `Install From VSIX`。
+4. 选择 REST Client 扩展进行安装。  
+![扩展安装图示](/01_ide-cpp/01/1.jpg)
 
+#### 设置图标主题
+1. 选择 `Material Icon Theme`。
+2. 进入 `Set File Icon Theme`。
+3. 选择对应的图标。  
+![图标选择](/02_ide-java/01/3.jpg)
 
-设置图标
-选择Material Icon Theme-->Set File Icon Theme-->选择它的图标
-![](/02_ide-java/01/3.jpg)
+### 1.4 使用 Developer Tools 检查错误
+通过 `Ctrl+Shift+P` 打开命令面板并选择 `Developer: Toggle Developer Tools` 进行错误检查。
 
-使用Developer Tools检查其他错误  
-Ctrl+Shift+P-->Developer: Toggle Developer Tools
-![3](/05_ide-rust/01_install_files/3.jpg)
-### 编写测试
-之后就可以编写rest-client文件了,后缀名.http
-![1](/08_ide-rest-client/01_install_files/1.jpg)
+### 1.5 REST Client 编写测试
+现在，您已经准备好编写和发送HTTP请求了。创建一个新文件并保存为 `.http` 扩展名，如 `request.http`。  
+![REST Client 测试](/08_ide-rest-client/01_install_files/1.jpg)
 
+## 2. MacOS 安装流程
+请参考上述 Windows 的安装流程。
 
-## McOS安装
-参考上面的安装过程
+## 3. ide-rest-client 扩展介绍
 
-## ide-rest-client Extension
-Name: REST Client  
-Id: humao.rest-client  
-Description: REST Client for Visual Studio Code  
-Version: 0.25.1  
-Publisher: humao  
+### REST Client 支持
+- **REST Client**  
+  [VS Marketplace Link](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
