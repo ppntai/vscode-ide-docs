@@ -3,11 +3,11 @@
 		"ariaLabel": "Sources Menu",
 		"items": [{
 				"text": "Gitee",
-				"link": "https://gitee.com/jfinal/jfinal"
+				"link": "https://gitee.com/ppnt/vscode-ide-docs"
 			},
 			{
 				"text": "Github",
-				"link": "https://github.com/jfinal/jfinal"
+				"link": "https://github.com/ppntai/vscode-ide-docs"
 			}
 		]
 	},

@@ -84,6 +84,13 @@
     ]
   },
   {
+    "title": "12_ide-android",
+    "collapsable": false,
+    "children": [
+      "12_ide-android/01_install.md"
+    ]
+  },
+  {
     "title": "99_other-plugins",
     "collapsable": false,
     "children": [
