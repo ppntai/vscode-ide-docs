@@ -1,18 +1,25 @@
-# ide-rust 安装
-## Windows 安装
-### 下载
-https://github.com/ppntai/vscode-ide/releases/tag/ide-rust-v1.0.0  
-下载两个文件,分别是
-- vs-code-ide-rust-win32-x64.exe
-- ide-rust-extensions.zip
+当然可以，以下是润色和完善后的文档：
 
+---
 
-### 安装 ide-rust
-双击vs-code-ide-rust-win32-x64.exe安装,安装完成后的图标如下  
-![1](/05_ide-rust/01_install_files/1.jpg)
+# ide-rust 安装指南
 
-### 安装扩展
-解压ide-rust-extensions.zip,解压后的扩展如下
+## 1. Windows 安装流程
+
+### 1.1 下载文件
+前往 [Github Release 页面](https://github.com/ppntai/vscode-ide/releases/tag/ide-rust-v1.0.0)，请下载以下两个文件：
+- `vs-code-ide-rust-win32-x64.exe`
+- `ide-rust-extensions.zip`
+
+### 1.2 安装 ide-rust
+- 双击 `vs-code-ide-rust-win32-x64.exe` 文件进行安装。
+- 安装完成后的图标如下：  
+![IDE Rust 安装图标](/05_ide-rust/01_install_files/1.jpg)
+
+### 1.3 扩展安装
+
+#### 扩展文件列表
+解压 `ide-rust-extensions.zip` 后，您将看到以下扩展：
 ```
 ├── rust-lang.rust
 │   ├── rust-lang.rust-analyzer-0.4.1592@alpine-x64.vsix
@@ -30,76 +37,58 @@ https://github.com/ppntai/vscode-ide/releases/tag/ide-rust-v1.0.0
 ├── serayuzgur.crates-0.6.0.vsix
 ├── swellaby.rust-pack-0.3.3.vsix
 ```
-安装扩展
-安装 rust-lang.rust扩展
-启动ide-rust-->Extensions-->...-->Install From VSIX-->选择所有的rust-lang.rust扩展,它会根据当前的操作系统选择对应的扩展安装
-![1](/01_ide-cpp/01/1.jpg)
 
-安装其他扩展
-过程和上面相似,选择其他的所有扩展进行安装
+#### 安装扩展
+1. 启动 ide-rust。
+2. 进入 Extensions。
+3. 选择 `...` → `Install From VSIX`。
+4. 选择所有的 `rust-lang.rust` 扩展进行安装（程序会根据您的操作系统选择对应的扩展进行安装）。  
+![安装图示](/01_ide-cpp/01/1.jpg)
+5. 使用相同的方法安装其他扩展。
 
+#### 设置图标主题
+1. 选择 `Material Icon Theme`。
+2. 进入 `Set File Icon Theme`。
+3. 选择对应的图标。  
+![图标选择](/02_ide-java/01/3.jpg)
 
-设置图标
-选择Material Icon Theme-->Set File Icon Theme-->选择它的图标
-![](/02_ide-java/01/3.jpg)
+### 1.4 配置 ide-rust
 
-### 配置ide-rust
-编辑配置文件
-```
-C:\Users\Administrator\.vside-rust\argv.json
-```
-添加
+#### 编辑配置文件
+打开文件 `C:\Users\Administrator\.vside-rust\argv.json`，并添加以下内容：
 ```
 "enable-proposed-api":["ms-toolsai.rust"]
 ```
-添加后的内容如下
+
+#### 完整的配置文件内容
 ```
-// This configuration file allows you to pass permanent command line arguments to VS Code.
-// Only a subset of arguments is currently supported to reduce the likelihood of breaking
-// the installation.
-//
-// PLEASE DO NOT CHANGE WITHOUT UNDERSTANDING THE IMPACT
-//
-// NOTE: Changing this file requires a restart of VS Code.
 {
-	// Use software rendering instead of hardware accelerated rendering.
-	// This can help in cases where you see rendering issues in VS Code.
-	// "disable-hardware-acceleration": true,
-
-	// Allows to disable crash reporting.
-	// Should restart the app if the value is changed.
 	"enable-crash-reporter": true,
-
-	// Unique id used for correlating crash reports sent from this instance.
-	// Do not edit this value.
 	"crash-reporter-id": "f05d1a0c-6fc9-45ee-b8fc-c222c8bd2bff",
 	"enable-proposed-api":["ms-toolsai.rust"]
 }
 ```
 
-使用Developer Tools检查其他错误  
-Ctrl+Shift+P-->Developer: Toggle Developer Tools
-![3](/05_ide-rust/01_install_files/3.jpg)
-### 编写代码测试
-前提是已经安装了rust环境
-```
+### 1.5 使用 Developer Tools 检查错误
+选择 `Developer: Toggle Developer Tools`。
+
+### 1.6 代码测试
+确保您已经安装了 Rust 开发环境。
+
+编写以下 Rust 代码并执行：
+```rust
 fn main(){
     println!("Hello World")
 }
 ```
+代码执行结果：  
+![代码运行结果](/01_install_files/2.jpg)
 
-```
-[Running] cd "f:\code\rust\rust-study\rust-basic-study\rust-hello-world\" && rustc hello_world.rs && "f:\code\rust\rust-study\rust-basic-study\rust-hello-world\"hello_world
-Hello World
-```
-![2](/01_install_files/2.jpg)
+## 2. MacOS 安装流程
+请参考上述 Windows 的安装流程。
 
+## 3. ide-rust 扩展介绍
 
-## McOS安装
-参考上面的安装过程
-
-## ide-rust Extension
-#### rust Support
 Name: Rust Extension Pack  
 Id: swellaby.rust-pack  
 Description: Extension Pack for Rust  

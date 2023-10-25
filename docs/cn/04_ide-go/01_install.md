@@ -69,6 +69,12 @@ Version: 0.39.1
 Publisher: Go Team at Google  
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=golang.Go  
 
+Name: Code Runner  
+Id: formulahendry.code-runner  
+Description: Run C, C++, Java, JS, PHP, Python, Perl, Ruby, Go, Lua, Groovy, PowerShell, CMD, BASH, F#, C#, VBScript, TypeScript, CoffeeScript, Scala, Swift, Julia, Crystal, OCaml, R, AppleScript, Elixir, VB.NET, Clojure, Haxe, Obj-C, Rust, Racket, Scheme, AutoHotkey, AutoIt, Kotlin, Dart, Pascal, Haskell, Nim, D, Lisp, Kit, V, SCSS, Sass, CUDA, Less, Fortran, Ring, Standard ML, Zig  
+Version: 0.12.0  
+Publisher: formulahendry 
+
 #### Theme support
 Name: Material Icon Theme  
 Id: PKief.material-icon-theme  
@@ -76,3 +82,4 @@ Description: Material Design Icons for Visual Studio Code
 Version: 4.28.0  
 Publisher: Philipp Kief  
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme  
+
