@@ -23,8 +23,14 @@ function generateSidebar(dir, prefix = '') {
     return sidebar;
 }
 
-const sidebar = generateSidebar(path.resolve(__dirname, '../docs/cn'));
-const sidebarJson = JSON.stringify(sidebar, null, 2);
+let sidebar = generateSidebar(path.resolve(__dirname, '../docs/cn'));
+let sidebarJson = JSON.stringify(sidebar, null, 2);
 
 fs.writeFileSync(path.resolve(__dirname, '../docs/.vuepress/config/sidebar-zh.json'), sidebarJson);
+
+sidebar = generateSidebar(path.resolve(__dirname, '../docs/en'));
+sidebarJson = JSON.stringify(sidebar, null, 2);
+
+fs.writeFileSync(path.resolve(__dirname, '../docs/.vuepress/config/sidebar-en.json'), sidebarJson);
+
 console.log('Sidebar generated successfully!');

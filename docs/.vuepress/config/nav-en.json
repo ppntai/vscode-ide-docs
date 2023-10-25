@@ -16,11 +16,11 @@
 		"ariaLabel": "Language Menu",
 		"items": [{
 				"text": "Chinese",
-				"link": "/zh/1 快速上手/1.0 快速上手.md"
+				"link": "/cn/01_ide-cpp/01_install.md"
 			},
 			{
 				"text": "English",
-				"link": "/en/1 Quick Start/1.0 Quick Start.md"
+				"link": "/en/01_ide-cpp/01_install.md"
 			}
 		]
 	},
