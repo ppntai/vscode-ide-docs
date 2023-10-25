@@ -1,18 +1,21 @@
-# ide-java 安装
-## Windows 安装
-### 下载
-https://github.com/ppntai/vscode-ide/releases/tag/
-下载两个文件,分别是
-- vscode-ide-java-win32-x64.exe
-- ide-java-extensions.zip
+# ide-java 安装指南
 
+## 1. Windows 安装流程
 
-### 安装 ide-java
-双击vs-code-ide-java-win32-x64.exe安装,安装完成后的图标如下  
-![1](/02_ide-java/01/1.jpg)
+### 1.1 下载链接
+前往 [Github Release 页面](https://github.com/ppntai/vscode-ide/releases/tag/) 下载以下两个文件：
+- `vscode-ide-java-win32-x64.exe`
+- `ide-java-extensions.zip`
 
-### 安装扩展
-解压ide-java-extensions.zip,解压后的扩展如下
+### 1.2 安装 ide-java
+- 双击 `vscode-ide-java-win32-x64.exe` 文件进行安装。
+- 安装完成后的图标如下：  
+![IDE Java 安装图标](/02_ide-java/01/1.jpg)
+
+### 1.3 扩展安装
+
+#### 扩展文件列表
+解压 `ide-java-extensions.zip` 后，您将看到以下扩展：
 ```
 ├── redhat.java
 │   ├── redhat.java-1.21.2023070804.vsix
@@ -48,71 +51,59 @@ https://github.com/ppntai/vscode-ide/releases/tag/
 ├── vscjava.vscode-spring-boot-dashboard-0.13.2023070100.vsix
 ├── vscjava.vscode-spring-initializr-0.11.2023070103.vsix
 ```
-安装扩展
-安装 redhat.java扩展
-启动ide-java-->Extensions-->...-->Install From VSIX-->选择所有的redhat.java扩展,它会根据当前的操作系统选择对应的扩展安装
-![1](/01_ide-cpp/01/1.jpg)
 
-安装其他扩展
-过程和上面相似,选择redhat.vscode-xml的所有扩展进行安装
-过程和上面相似,选择其他的所有扩展进行安装
+#### 安装 `redhat.java` 扩展
+1. 启动 ide-java。
+2. 进入 Extensions。
+3. 选择 `...` → `Install From VSIX`。
+4. 选择所有的 `redhat.java` 扩展。系统会根据您的操作系统自动选择对应的扩展进行安装。  
+![安装图示](/01_ide-cpp/01/1.jpg)
 
+#### 安装其他扩展
+- 对于 `redhat.vscode-xml` 和其他扩展，安装过程与上述类似。
 
-设置图标
-选择Material Icon Theme-->Set File Icon Theme-->选择它的图标
-![](/02_ide-java/01/3.jpg)
+#### 设置图标
+1. 选择 `Material Icon Theme`。
+2. 进入 `Set File Icon Theme`。
+3. 选择对应的图标。  
+![图标选择](/02_ide-java/01/3.jpg)
 
-### 配置ide-java
-编辑配置文件
+### 1.4 ide-java 配置
+- 打开配置文件 `C:\Users\Administrator\.vside-python\argv.json`。
+- 添加以下内容：
 ```
-C:\Users\Administrator\.vside-python\argv.json
+"enable-proposed-api":["ms-vscode-remote.remote-containers","ms-vscode-remote.remote-ssh","ms-vscode-remote.remote-wsl","ms-vscode.remote-server"]
 ```
-添加
-```
-	"enable-proposed-api":["ms-vscode-remote.remote-containers","ms-vscode-remote.remote-ssh","ms-vscode-remote.remote-wsl","ms-vscode.remote-server"]
-```
-添加后的内容如下
+配置文件完整内容如下：
 ```
 {
-	// Use software rendering instead of hardware accelerated rendering.
-	// This can help in cases where you see rendering issues in VS Code.
-	// "disable-hardware-acceleration": true,
-
-	// Allows to disable crash reporting.
-	// Should restart the app if the value is changed.
-	"enable-crash-reporter": true,
-
-	// Unique id used for correlating crash reports sent from this instance.
-	// Do not edit this value.
-	"crash-reporter-id": "f52a60d6-a354-4274-9f22-bd2502c54da9",
-	"enable-proposed-api":["ms-vscode-remote.remote-containers","ms-vscode-remote.remote-ssh","ms-vscode-remote.remote-wsl","ms-vscode.remote-server"]
+    "disable-hardware-acceleration": false,
+    "enable-crash-reporter": true,
+    "crash-reporter-id": "f52a60d6-a354-4274-9f22-bd2502c54da9",
+    "enable-proposed-api":["ms-vscode-remote.remote-containers","ms-vscode-remote.remote-ssh","ms-vscode-remote.remote-wsl","ms-vscode.remote-server"]
 }
 ```
 
-使用Developer Tools检查其他错误  
-Ctrl+Shift+P-->Developer: Toggle Developer Tools
-![3](/05_ide-rust/01_install_files/3.jpg)
-### 编写代码测试
-前提是已经安装了cpp环境,例如mingw或者cywin
-c
-```
+### 1.5 代码测试
+确保您已经安装了 Java 开发环境。
+
+#### Java 示例代码
+```java
 public class HelloWorld {
-  public static void main(String[] args) {
-    System.out.println("Hello world");
-    // get java version
-    String javaVersion = System.getProperty("java.version");
-    System.out.println(javaVersion);
-  }
+    public static void main(String[] args) {
+        System.out.println("Hello world");
+        String javaVersion = System.getProperty("java.version");
+        System.out.println(javaVersion);
+    }
 }
 ```
 
+代码运行输出：
 ```
-PS E:\code\java\java-study\java-se-study\maven\hello-world>  & 'D:\dev_program\java\jdk-17.0.4.1\bin\java.exe' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'E:\code\java\java-study\java-se-study\maven\hello-world\target\classes' 'HelloWorld'
 Hello world
 17.0.4.1
 ```
-![1](/02_ide-java/01/2.jpg)
-
+![代码运行结果](/02_ide-java/01/2.jpg)
 
 ## McOS安装
 参考上面的安装过程
