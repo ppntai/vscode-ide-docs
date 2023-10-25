@@ -1,15 +1,20 @@
-# ide-cpp 安装
-## Windows 安装
-### 下载
-[vs-code-ide-cpp-win32-x64.exe](https://github.com/ppntai/vscode-ide/releases/download/ide-cpp-v1.0.0/vs-code-ide-cpp-win32-x64.exe)  
-[ide-cpp-extensions.zip](https://github.com/ppntai/vscode-ide/releases/download/ide-cpp-v1.0.0/ide-cpp-extensions.zip)
+# ide-cpp 安装指南
 
-### 安装 ide-cpp
-双击vs-code-ide-cpp-win32-x64.exe安装,安装完成后的图标如下  
-![1](/01_ide-cpp/01/2.jpg)
+## 1. Windows 安装步骤
 
-### 安装扩展
-解压ide-cpp-extensions.zip,解压后的扩展如下
+### 1.1 下载
+
+- [vs-code-ide-cpp-win32-x64.exe](https://github.com/ppntai/vscode-ide/releases/download/ide-cpp-v1.0.0/vs-code-ide-cpp-win32-x64.exe)
+- [ide-cpp-extensions.zip](https://github.com/ppntai/vscode-ide/releases/download/ide-cpp-v1.0.0/ide-cpp-extensions.zip)
+
+### 1.2 安装 ide-cpp
+
+双击 `vs-code-ide-cpp-win32-x64.exe` 文件进行安装。安装完成后，你将看到以下图标：  
+![安装完成图标](/01_ide-cpp/01/2.jpg)
+
+### 1.3 安装扩展
+
+- 解压 `ide-cpp-extensions.zip` 文件，你将看到以下扩展：
 ```
 ├── ms-vscode.cpptools
 │   ├── ms-vscode.cpptools-1.16.3@alpine-arm64.vsix
@@ -36,28 +41,27 @@
 ├── ms-vscode.remote-server-1.3.2023070609.vsix
 ├── twxs.cmake-0.0.17.vsix
 ```
-安装扩展
-安装 ms-vscode.cpptools扩展
-启动ide-cpp-->Extensions-->...-->Install From VSIX-->选择所有的ms-vscode.cpptools扩展,它会根据当前的操作系统选择对应的扩展安装
-![1](/01_ide-cpp/01/1.jpg)
-![1](/01_ide-cpp/01/3.jpg)
-安装其他扩展
-过程和上面相似,选择除去ms-vscode.cpptools外的所有扩展进行安装
 
-设置图标
-选择Material Icon Theme-->Set File Icon Theme-->选择它的图标
-![1](/01_ide-cpp/01/4.jpg)
+- 安装 `ms-vscode.cpptools` 扩展：  
+  启动 ide-cpp → Extensions → ... → Install From VSIX → 选择所有的 `ms-vscode.cpptools` 扩展。系统会根据你的操作系统自动选择并安装相应的扩展。  
+  ![扩展安装图](/01_ide-cpp/01/1.jpg)  
+  ![扩展安装图](/01_ide-cpp/01/3.jpg)
 
-### 配置ide-cpp
-编辑配置文件
-```
-C:\Users\Administrator\.vside-cpp\argv.json
-```
-添加
+- 安装其他扩展：  
+  同上，选择并安装除 `ms-vscode.cpptools` 之外的所有扩展。
+
+- 设置图标：  
+  选择 `Material Icon Theme` → Set File Icon Theme → 选择适当的图标。  
+  ![图标设置](/01_ide-cpp/01/4.jpg)
+
+### 1.4 配置 ide-cpp
+
+- 编辑配置文件 `C:\Users\Administrator\.vside-cpp\argv.json`，在其中添加：
 ```
    "enable-proposed-api":["ms-vscode.cpptools","ms-vscode-remote.remote-containers","ms-vscode-remote.remote-ssh","ms-vscode-remote.remote-wsl","ms-vscode.remote-server"]
 ```
-添加后的内容如下
+
+- 添加后的文件内容应如下：
 ```
 {
 	// Use software rendering instead of hardware accelerated rendering.
@@ -76,13 +80,18 @@ C:\Users\Administrator\.vside-cpp\argv.json
 }
 ```
 
-使用Developer Tools检查其他错误  
-Ctrl+Shift+P-->Developer: Toggle Developer Tools
-![3](/05_ide-rust/01_install_files/3.jpg)
-### 编写代码测试
-前提是已经安装了cpp环境,例如mingw或者cywin
-c
-```
+- 使用 Developer Tools 进行错误检查：  
+  Ctrl+Shift+P → Developer: Toggle Developer Tools  
+  ![开发者工具](/05_ide-rust/01_install_files/3.jpg)
+
+### 1.5 代码测试
+
+确保你已经安装了 C++ 环境，例如 `mingw` 或 `cywin`。
+
+示例代码如下：
+
+**C 代码**
+```c
 #include <stdio.h>
 
 int main(){
@@ -90,17 +99,17 @@ int main(){
     return 1;
 }
 ```
-
+运行输出：
 ```
 [Running] cd "e:\code\cpp\cpp-study\cpp-study-vs-code\vs-code-c-hello\" && gcc c-hello-world.c -o c-hello-world && "e:\code\cpp\cpp-study\cpp-study-vs-code\vs-code-c-hello\"c-hello-world
 Hello,World
 
 [Done] exited with code=1 in 0.407 seconds
 ```
-![1](/01_ide-cpp/01/5.jpg)
+![代码测试结果](/01_ide-cpp/01/5.jpg)
 
-cpp
-```
+**C++ 代码**
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -109,9 +118,12 @@ int main() {
   for (int i = 0; i < 10; i++) {
     cout << i << endl;
   }
-  return 0;
+  return 
+
+0;
 }
 ```
+运行输出：
 ```
 [Running] cd "e:\code\cpp\cpp-study\cpp-study-vs-code\vs-code-c-hello\" && g++ cpp-hello-world.cpp -o cpp-hello-world && "e:\code\cpp\cpp-study\cpp-study-vs-code\vs-code-c-hello\"cpp-hello-world
 hello world
@@ -128,12 +140,16 @@ hello world
 
 [Done] exited with code=0 in 0.34 seconds
 ```
+![代码测试结果](/01_ide-cpp/01/6.jpg)
 
-![1](/01_ide-cpp/01/6.jpg)
+## 2. MacOS 安装步骤
 
-## McOS安装
-参考上面的安装过程
-## ide-cpp Extension
+请参考上述 Windows 的安装过程。
+
+## 3. ide-cpp 扩展介绍
+
+以下列出了与 ide-cpp 相关的扩展和其详细信息：
+
 #### C/C++ Extension Pack
 Cpp support
 Name: C/C++ Extension Pack

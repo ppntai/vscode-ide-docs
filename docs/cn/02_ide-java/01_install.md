@@ -1,7 +1,7 @@
 # ide-java 安装
 ## Windows 安装
 ### 下载
-https://github.com/ppntai/vscode-ide/releases/tag/ide-java-v1.0.0  
+https://github.com/ppntai/vscode-ide/releases/tag/
 下载两个文件,分别是
 - vscode-ide-java-win32-x64.exe
 - ide-java-extensions.zip
