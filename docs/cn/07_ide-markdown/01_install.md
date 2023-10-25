@@ -1,58 +1,60 @@
-# ide-markdown 安装
-## Windows 安装
-### 下载
-https://github.com/ppntai/vscode-ide/releases/
-下载两个文件,分别是
-- VSCode-ide-markdown-win32-x64.zip
-- ide-markdown-extensions.zip
+# ide-markdown 安装指南
 
+## 1. Windows 安装流程
 
-### 安装 ide-markdown
-解压后双击ide-markdown.exe启动,安装完成后的图标如下  
-![1](/07_ide-markdown/01_install_files/1.jpg)
+### 1.1 下载文件
+前往 [Github Release 页面](https://github.com/ppntai/vscode-ide/releases/)，下载以下两个文件：
+- `VSCode-ide-markdown-win32-x64.zip`
+- `ide-markdown-extensions.zip`
 
-### 安装扩展
-解压ide-markdown-extensions.zip,解压后的扩展如下
+### 1.2 安装 ide-markdown
+- 解压下载的ZIP文件。
+- 双击 `ide-markdown.exe` 文件进行启动。
+- 启动后的图标如下：  
+![IDE Markdown 图标](/07_ide-markdown/01_install_files/1.jpg)
+
+### 1.3 扩展安装
+
+#### 扩展文件列表
+解压 `ide-markdown-extensions.zip` 后，您将看到以下扩展：
 ```
-.
 ├── PKief.material-icon-theme-4.28.0.vsix
 ├── shd101wyy.markdown-preview-enhanced-0.7.10.vsix
 ├── yzhang.markdown-all-in-one-3.5.1.vsix
 ```
-安装扩展
-安装 markdown扩展
-启动ide-markdown-->Extensions-->...-->Install From VSIX-->选择所有的markdown扩展,它会根据当前的操作系统选择对应的扩展安装
-![1](/01_ide-cpp/01/1.jpg)
 
-安装其他扩展
-过程和上面相似,选择其他的所有扩展进行安装
+#### 安装扩展
+1. 启动 ide-markdown。
+2. 进入 Extensions。
+3. 选择 `...` → `Install From VSIX`。
+4. 选择所有与 Markdown 相关的扩展进行安装（程序会根据您的操作系统选择对应的扩展进行安装）。  
+![扩展安装图示](/01_ide-cpp/01/1.jpg)
+5. 使用相同的方法安装其他扩展。
 
+#### 设置图标主题
+1. 选择 `Material Icon Theme`。
+2. 进入 `Set File Icon Theme`。
+3. 选择对应的图标。  
+![图标选择](/02_ide-java/01/3.jpg)
 
-设置图标
-选择Material Icon Theme-->Set File Icon Theme-->选择它的图标
-![](/02_ide-java/01/3.jpg)
+### 1.4 使用 Developer Tools 检查错误
+通过 `Ctrl+Shift+P` 打开命令面板并选择 `Developer: Toggle Developer Tools` 进行错误检查。
 
-使用Developer Tools检查其他错误  
-Ctrl+Shift+P-->Developer: Toggle Developer Tools
-![3](/05_ide-rust/01_install_files/3.jpg)
-### 编写测试
-之后就可以编写markdown文件了
+### 1.5 Markdown 编写测试
+现在，您已经准备好编写和预览Markdown文件了。
 
+## 2. MacOS 安装流程
+请参考上述 Windows 的安装流程。
 
-## McOS安装
-参考上面的安装过程
+## 3. ide-markdown 扩展介绍
 
-## ide-markdown Extension
-Name: Markdown Preview Enhanced  
-Id: shd101wyy.markdown-preview-enhanced  
-Description: Markdown Preview Enhanced ported to vscode  
-Version: 0.7.10  
-Publisher: Yiyi Wang  
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced  
+### Markdown 支持
+- **Markdown Preview Enhanced**  
+  [VS Marketplace Link](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
 
-Name: Markdown All in One  
-Id: yzhang.markdown-all-in-one  
-Description: All you need to write Markdown (keyboard shortcuts, table of contents, auto preview and more)  
-Version: 3.5.1  
-Publisher: Yu Zhang  
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one  
+- **Markdown All in One**  
+  [VS Marketplace Link](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+
+### 主题支持
+- **Material Icon Theme**  
+  [VS Marketplace Link](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
