@@ -1,17 +1,21 @@
-# ide-jupyter 安装
-## Windows 安装
-### 下载
-https://github.com/ppntai/vscode-ide/releases/
-下载两个文件,分别是
-- vscode-ide-jupyter-win32-x64.exe
-- ide-jupyter-extensions.zip
+# ide-jupyter 安装指南
 
+## 1. Windows 安装流程
 
-### 安装 ide-jupyter
-双击vs-code-ide-jupyter-win32-x64.exe安装,安装完成后的图标如下  
-![1](/03_ide-jupyter/01_install_files/1.jpg)
-### 安装扩展
-解压ide-jupyter-extensions.zip,解压后的扩展如下
+### 1.1 下载文件
+前往 [Github Release 页面](https://github.com/ppntai/vscode-ide/releases/)，请下载以下两个文件：
+- `vscode-ide-jupyter-win32-x64.exe`
+- `ide-jupyter-extensions.zip`
+
+### 1.2 安装 ide-jupyter
+- 双击 `vscode-ide-jupyter-win32-x64.exe` 文件进行安装。
+- 安装完成后的图标如下：  
+![IDE Jupyter 安装图标](/03_ide-jupyter/01_install_files/1.jpg)
+
+### 1.3 扩展安装
+
+#### 扩展文件列表
+解压 `ide-jupyter-extensions.zip` 后，您将看到以下扩展：
 ```
 ├── ms-toolsai.jupyter
 │   ├── ms-toolsai.jupyter-2023.6.1001861915.vsix
@@ -39,61 +43,54 @@ https://github.com/ppntai/vscode-ide/releases/
 ├── ms-vscode-remote.vscode-remote-extensionpack-0.24.0.vsix
 ├── ms-vscode.remote-server-1.3.2023070609.vsix
 ```
-安装扩展
-安装ms-toolsai.jupyter扩展
-启动ide-jupyter-->Extensions-->...-->Install From VSIX-->选择所有的redhat.java扩展,它会根据当前的操作系统选择对应的扩展安装
-![1](/01_ide-cpp/01/1.jpg)
 
-安装其他扩展
-过程和上面相似,选择其他的所有扩展进行安装
+#### 安装 `ms-toolsai.jupyter` 扩展
+1. 启动 ide-jupyter。
+2. 进入 Extensions。
+3. 选择 `...` → `Install From VSIX`。
+4. 选择所有的 `ms-toolsai.jupyter` 扩展。系统会根据您的操作系统自动选择对应的扩展进行安装。  
+![安装图示](/01_ide-cpp/01/1.jpg)
 
+#### 安装其他扩展
+对于其他扩展，安装过程与上述类似。
 
-设置图标
-选择Material Icon Theme-->Set File Icon Theme-->选择它的图标
-![](/02_ide-java/01/3.jpg)
+#### 设置图标主题
+1. 选择 `Material Icon Theme`。
+2. 进入 `Set File Icon Theme`。
+3. 选择对应的图标。  
+![图标选择](/02_ide-java/01/3.jpg)
 
-修改配置参数
-编辑配置文件C:\Users\Administrator\.vside-jupyter\argv.json
-添加
+### 1.4 修改配置参数
+编辑配置文件 `C:\Users\Administrator\.vside-jupyter\argv.json`，并添加以下内容：
 ```
-"enable-proposed-api":["ms-python.python","ms-toolsai.jupyter","ms-toolsai.jupyter-renderers","ms-vscode-remote.remote-containers",
-	"ms-vscode-remote.remote-ssh","ms-vscode-remote.remote-wsl","ms-vscode.remote-server"],
+"enable-proposed-api": ["ms-python.python", "ms-toolsai.jupyter", "ms-toolsai.jupyter-renderers", "ms-vscode-remote.remote-containers", "ms-vscode-remote.remote-ssh", "ms-vscode-remote.remote-wsl", "ms-vscode.remote-server"]
 ```
-修改后的内容如下
+完整配置文件内容如下：
 ```
 {
-
-
-	// Allows to disable crash reporting.
-	// Should restart the app if the value is changed.
-	"enable-crash-reporter": true,
-
-	// Unique id used for correlating crash reports sent from this instance.
-	// Do not edit this value.
-	"crash-reporter-id": "74f88bc1-d985-4264-93bc-141d4ed475a8",
-	"enable-proposed-api":["ms-python.python","ms-toolsai.jupyter","ms-toolsai.jupyter-renderers","ms-vscode-remote.remote-containers",
-	"ms-vscode-remote.remote-ssh","ms-vscode-remote.remote-wsl","ms-vscode.remote-server"],
+    "enable-crash-reporter": true,
+    "crash-reporter-id": "74f88bc1-d985-4264-93bc-141d4ed475a8",
+    "enable-proposed-api": ["ms-python.python", "ms-toolsai.jupyter", "ms-toolsai.jupyter-renderers", "ms-vscode-remote.remote-containers", "ms-vscode-remote.remote-ssh", "ms-vscode-remote.remote-wsl", "ms-vscode.remote-server"]
 }
 ```
 
-使用Developer Tools检查错误
-Developer: Toggle Developer Tools
+### 1.5 代码测试
+确保您已经安装了 Python 环境。
 
+#### 创建 Jupyter Notebook
+使用快捷键 `Ctrl+Shift+P` 调出 Command Palette，输入 "create: Create New Notebook"，创建一个新的 Jupyter Notebook。
 
-### 编写代码测试
-前提是已经安装了python环境
-创建 Jupyter Notebook
-当安装后，使用快捷键 Ctrl+Shift+P 调出 Command Palette，然后输入 "create: Create New Notebook" ，就能创建一个新的 Jupyter Notebook。
+输入以下 Python 代码并执行：
 ```
 print("hello")
 ```
-编写下面的代码,运行即可
-![](/03_ide-jupyter/01_install_files/2.jpg)
+代码执行结果：  
+![代码运行结果](/03_ide-jupyter/01_install_files/2.jpg)
 
+## 2. MacOS 安装流程
+请参考上述 Windows 的安装流程。
 
-## McOS安装
-参考上面的安装过程
-## ide-jupyter Extension
+## 3. ide-jupyter 扩展介绍
 #### python Support
 
 Name: Python  
