@@ -1,20 +1,20 @@
-# ide-android 安装指南
-## 1. Windows 安装流程
+# ide-android Installation Guide
+## 1. Windows Installation Procedure
 
-### 1.1 下载文件
-前往 [Github Release 页面](https://github.com/ppntai/vscode-ide/releases/) 下载以下两个文件：
+### 1.1 Download Files
+Visit the [Github Release Page](https://github.com/ppntai/vscode-ide/releases/) and download the following two files:
 - `VSCode-ide-andriod-win32-x64.zip`
 - `ide-android-extensions.zip`
 
-### 1.2 安装 ide-android
-- 双击 `VSCode-ide-andriod-win32-x64.zip` 文件进行安装。
-- 安装完成后，您应能看到如下图标：  
-![IDE Android 图标](/12_ide-android/01_install_files/1.jpg)
+### 1.2 Install ide-android
+- Double-click on the `VSCode-ide-andriod-win32-x64.zip` file to install.
+- After installation, you should see the following icon:  
+![IDE Android Icon](/12_ide-android/01_install_files/1.jpg)
 
-### 1.3 扩展安装
+### 1.3 Install Extensions
 
-#### 扩展文件列表
-解压 `ide-android-extensions.zip` 后，您将看到以下扩展：
+#### List of Extension Files
+After unzipping `ide-android-extensions.zip`, you will see the following extensions:
 ```
 .
 ├── AntonyDalmiere.android-support-0.6.0.vsix
@@ -35,29 +35,29 @@
 ├── vscjava.vscode-gradle-3.13.2023101809.vsi
 ```
 
-#### 安装扩展
-1. 启动 ide-android。
-2. 进入 Extensions。
-3. 选择 `...` → `Install From VSIX`。
-4. 选择上述的扩展进行安装。  
-![扩展安装图示](/01_ide-cpp/01/1.jpg)
+#### Install Extensions
+1. Launch ide-android.
+2. Navigate to Extensions.
+3. Select `...` → `Install From VSIX`.
+4. Install the aforementioned extensions.  
+![Extensions Installation Guide](/01_ide-cpp/01/1.jpg)
 
-#### 设置图标主题
-1. 选择 `Material Icon Theme`。
-2. 进入 `Set File Icon Theme`。
-3. 选择对应的图标。  
-![图标选择](/02_ide-java/01/3.jpg)
+#### Set Icon Theme
+1. Choose `Material Icon Theme`.
+2. Navigate to `Set File Icon Theme`.
+3. Select the corresponding icon.  
+![Icon Selection](/02_ide-java/01/3.jpg)
 
-### 1.4 使用 Developer Tools 检查错误
-通过 `Ctrl+Shift+P` 打开命令面板并选择 `Developer: Toggle Developer Tools` 进行错误检查。
+### 1.4 Use Developer Tools to Check Errors
+Open the command palette with `Ctrl+Shift+P` and select `Developer: Toggle Developer Tools` to check for errors.
 
-### 1.5 代码测试
-当前版本的 IDE-android 主要用于浏览 Android 代码和命令行调试，并不直接支持编写代码测试。
+### 1.5 Code Testing
+The current version of IDE-android is mainly used for browsing Android code and command-line debugging and does not directly support code writing tests.
 
-## 2. MacOS 安装流程
-请参考上述 Windows 的安装流程。
+## 2. MacOS Installation Procedure
+Please refer to the Windows installation procedure described above.
 
-## 3. ide-android 扩展介绍
+## 3. ide-android Extension Overview
 
 - **Language Support for Java™ by Red Hat**  
   [VS Marketplace Link](https://marketplace.visualstudio.com/items?itemName=redhat.java)
