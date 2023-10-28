@@ -115,11 +115,7 @@ Hello world
   
 - **Language Support for Java(TM) by Red Hat**  
   Publisher: Red Hat
-
-  
   [VS Marketplace Link](https://marketplace.visualstudio.com/items?itemName=redhat.java)
-  
-... (其他扩展)
 
 ### XML 支持
 - **XML**  

@@ -8,6 +8,10 @@
     "build": "vuepress build docs"
   },
   "devDependencies": {
-    "vuepress": "^1.9.10"
+    "@vuepress/plugin-back-to-top": "^1.9.10",
+    "@vuepress/plugin-medium-zoom": "^1.9.10",
+    "@vuepress/plugin-pwa": "^1.9.10",
+    "vuepress": "^1.9.10",
+    "vuepress-plugin-fulltext-search": "^2.2.1"
   }
 }
