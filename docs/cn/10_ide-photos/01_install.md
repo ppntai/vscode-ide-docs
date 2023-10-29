@@ -9,7 +9,7 @@
 ### 1.2 安装 ide-photo
 - 双击 `vs-code-ide-photo-win32-x64.exe` 文件进行安装。
 - 安装完成后，您应能看到如下图标：  
-![IDE Photo 图标](/10_ide-photos/01_install_files/2.jpg)
+![IDE Photo 图标](/vscode-ide-docs/10_ide-photos/01_install_files/2.jpg)
 
 ### 1.3 扩展安装
 
@@ -24,20 +24,20 @@ PKief.material-icon-theme-4.28.0.vsix
 2. 进入 Extensions。
 3. 选择 `...` → `Install From VSIX`。
 4. 选择上述的扩展进行安装。  
-![扩展安装图示](/01_ide-cpp/01/1.jpg)
+![扩展安装图示](/vscode-ide-docs/01_ide-cpp/01/1.jpg)
 
 #### 设置图标主题
 1. 选择 `Material Icon Theme`。
 2. 进入 `Set File Icon Theme`。
 3. 选择对应的图标。  
-![图标选择](/02_ide-java/01/3.jpg)
+![图标选择](/vscode-ide-docs/02_ide-java/01/3.jpg)
 
 ### 1.4 使用 Developer Tools 检查错误
 通过 `Ctrl+Shift+P` 打开命令面板并选择 `Developer: Toggle Developer Tools` 进行错误检查。
 
 ### 1.5 图片预览测试
 现在，您可以轻松预览图片文件。单击以预览文件，双击以打开文件。  
-![图片预览测试](/10_ide-photos/01_install_files/1.jpg)
+![图片预览测试](/vscode-ide-docs/10_ide-photos/01_install_files/1.jpg)
 
 ## 2. MacOS 安装流程
 请参考上述 Windows 的安装流程。

@@ -10,7 +10,7 @@
 ### 1.2 安装 ide-cpp
 
 双击 `vs-code-ide-cpp-win32-x64.exe` 文件进行安装。安装完成后，你将看到以下图标：  
-![安装完成图标](/01_ide-cpp/01/2.jpg)
+![安装完成图标](/vscode-ide-docs/01_ide-cpp/01/2.jpg)
 
 ### 1.3 安装扩展
 
@@ -44,15 +44,15 @@
 
 - 安装 `ms-vscode.cpptools` 扩展：  
   启动 ide-cpp → Extensions → ... → Install From VSIX → 选择所有的 `ms-vscode.cpptools` 扩展。系统会根据你的操作系统自动选择并安装相应的扩展。  
-  ![扩展安装图](/01_ide-cpp/01/1.jpg)  
-  ![扩展安装图](/01_ide-cpp/01/3.jpg)
+  ![扩展安装图](/vscode-ide-docs/01_ide-cpp/01/1.jpg)  
+  ![扩展安装图](/vscode-ide-docs/01_ide-cpp/01/3.jpg)
 
 - 安装其他扩展：  
   同上，选择并安装除 `ms-vscode.cpptools` 之外的所有扩展。
 
 - 设置图标：  
   选择 `Material Icon Theme` → Set File Icon Theme → 选择适当的图标。  
-  ![图标设置](/01_ide-cpp/01/4.jpg)
+  ![图标设置](/vscode-ide-docs/01_ide-cpp/01/4.jpg)
 
 ### 1.4 配置 ide-cpp
 
@@ -82,7 +82,7 @@
 
 - 使用 Developer Tools 进行错误检查：  
   Ctrl+Shift+P → Developer: Toggle Developer Tools  
-  ![开发者工具](/05_ide-rust/01_install_files/3.jpg)
+  ![开发者工具](/vscode-ide-docs/05_ide-rust/01_install_files/3.jpg)
 
 ### 1.5 代码测试
 
@@ -106,7 +106,7 @@ Hello,World
 
 [Done] exited with code=1 in 0.407 seconds
 ```
-![代码测试结果](/01_ide-cpp/01/5.jpg)
+![代码测试结果](/vscode-ide-docs/01_ide-cpp/01/5.jpg)
 
 **C++ 代码**
 ```cpp
@@ -140,7 +140,7 @@ hello world
 
 [Done] exited with code=0 in 0.34 seconds
 ```
-![代码测试结果](/01_ide-cpp/01/6.jpg)
+![代码测试结果](/vscode-ide-docs/01_ide-cpp/01/6.jpg)
 
 ## 2. MacOS 安装步骤
 

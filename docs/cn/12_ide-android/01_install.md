@@ -9,7 +9,7 @@
 ### 1.2 安装 ide-android
 - 双击 `VSCode-ide-andriod-win32-x64.zip` 文件进行安装。
 - 安装完成后，您应能看到如下图标：  
-![IDE Android 图标](/12_ide-android/01_install_files/1.jpg)
+![IDE Android 图标](/vscode-ide-docs/12_ide-android/01_install_files/1.jpg)
 
 ### 1.3 扩展安装
 
@@ -40,13 +40,13 @@
 2. 进入 Extensions。
 3. 选择 `...` → `Install From VSIX`。
 4. 选择上述的扩展进行安装。  
-![扩展安装图示](/01_ide-cpp/01/1.jpg)
+![扩展安装图示](/vscode-ide-docs/01_ide-cpp/01/1.jpg)
 
 #### 设置图标主题
 1. 选择 `Material Icon Theme`。
 2. 进入 `Set File Icon Theme`。
 3. 选择对应的图标。  
-![图标选择](/02_ide-java/01/3.jpg)
+![图标选择](/vscode-ide-docs/02_ide-java/01/3.jpg)
 
 ### 1.4 使用 Developer Tools 检查错误
 通过 `Ctrl+Shift+P` 打开命令面板并选择 `Developer: Toggle Developer Tools` 进行错误检查。

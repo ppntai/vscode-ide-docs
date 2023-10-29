@@ -10,7 +10,7 @@
 ### 1.2 安装 ide-go
 - 解压 `vscode-ide-go-win32-x64.zip` 文件并执行其中的安装程序。
 - 安装完成后的图标如下：  
-![IDE Go 安装图标](/04_ide-go/01_install_files/1.jpg)
+![IDE Go 安装图标](/vscode-ide-docs/04_ide-go/01_install_files/1.jpg)
 
 ### 1.3 扩展安装
 
@@ -27,13 +27,13 @@
 2. 进入 Extensions。
 3. 选择 `...` → `Install From VSIX`。
 4. 选择所有的扩展进行安装。  
-![安装图示](/01_ide-cpp/01/1.jpg)
+![安装图示](/vscode-ide-docs/01_ide-cpp/01/1.jpg)
 
 #### 设置图标主题
 1. 选择 `Material Icon Theme`。
 2. 进入 `Set File Icon Theme`。
 3. 选择对应的图标。  
-![图标选择](/02_ide-java/01/3.jpg)
+![图标选择](/vscode-ide-docs/02_ide-java/01/3.jpg)
 
 ### 1.4 使用 Developer Tools 检查错误
 选择 `Developer: Toggle Developer Tools`。
@@ -54,7 +54,7 @@ func main() {
 }
 ```
 代码执行结果：  
-![代码运行结果](/04_ide-go/01_install_files/2.jpg)
+![代码运行结果](/vscode-ide-docs/04_ide-go/01_install_files/2.jpg)
 
 ## 2. MacOS 安装流程
 请参考上述 Windows 的安装流程。

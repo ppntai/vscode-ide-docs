@@ -11,7 +11,7 @@
 - 解压下载的ZIP文件。
 - 双击 `ide-markdown.exe` 文件进行启动。
 - 启动后的图标如下：  
-![IDE Markdown 图标](/07_ide-markdown/01_install_files/1.jpg)
+![IDE Markdown 图标](/vscode-ide-docs/07_ide-markdown/01_install_files/1.jpg)
 
 ### 1.3 扩展安装
 
@@ -28,14 +28,14 @@
 2. 进入 Extensions。
 3. 选择 `...` → `Install From VSIX`。
 4. 选择所有与 Markdown 相关的扩展进行安装（程序会根据您的操作系统选择对应的扩展进行安装）。  
-![扩展安装图示](/01_ide-cpp/01/1.jpg)
+![扩展安装图示](/vscode-ide-docs/01_ide-cpp/01/1.jpg)
 5. 使用相同的方法安装其他扩展。
 
 #### 设置图标主题
 1. 选择 `Material Icon Theme`。
 2. 进入 `Set File Icon Theme`。
 3. 选择对应的图标。  
-![图标选择](/02_ide-java/01/3.jpg)
+![图标选择](/vscode-ide-docs/02_ide-java/01/3.jpg)
 
 ### 1.4 使用 Developer Tools 检查错误
 通过 `Ctrl+Shift+P` 打开命令面板并选择 `Developer: Toggle Developer Tools` 进行错误检查。

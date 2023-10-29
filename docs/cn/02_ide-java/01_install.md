@@ -10,7 +10,7 @@
 ### 1.2 安装 ide-java
 - 双击 `vscode-ide-java-win32-x64.exe` 文件进行安装。
 - 安装完成后的图标如下：  
-![IDE Java 安装图标](/02_ide-java/01/1.jpg)
+![IDE Java 安装图标](/vscode-ide-docs/02_ide-java/01/1.jpg)
 
 ### 1.3 扩展安装
 
@@ -57,7 +57,7 @@
 2. 进入 Extensions。
 3. 选择 `...` → `Install From VSIX`。
 4. 选择所有的 `redhat.java` 扩展。系统会根据您的操作系统自动选择对应的扩展进行安装。  
-![安装图示](/01_ide-cpp/01/1.jpg)
+![安装图示](/vscode-ide-docs/01_ide-cpp/01/1.jpg)
 
 #### 安装其他扩展
 - 对于 `redhat.vscode-xml` 和其他扩展，安装过程与上述类似。
@@ -66,7 +66,7 @@
 1. 选择 `Material Icon Theme`。
 2. 进入 `Set File Icon Theme`。
 3. 选择对应的图标。  
-![图标选择](/02_ide-java/01/3.jpg)
+![图标选择](/vscode-ide-docs/02_ide-java/01/3.jpg)
 
 ### 1.4 ide-java 配置
 - 打开配置文件 `C:\Users\Administrator\.vside-python\argv.json`。
@@ -103,7 +103,7 @@ public class HelloWorld {
 Hello world
 17.0.4.1
 ```
-![代码运行结果](/02_ide-java/01/2.jpg)
+![代码运行结果](/vscode-ide-docs/02_ide-java/01/2.jpg)
 
 ## McOS安装
 参考上面的安装过程

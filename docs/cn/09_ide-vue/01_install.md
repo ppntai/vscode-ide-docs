@@ -9,7 +9,7 @@
 ### 1.2 安装 ide-vue
 - 双击 `vs-code-ide-vue-win32-x64.exe` 文件进行安装。
 - 启动后的图标如下：  
-![IDE Vue 图标](/09_ide-vue/01_install_files/2.jpg)
+![IDE Vue 图标](/vscode-ide-docs/09_ide-vue/01_install_files/2.jpg)
 
 ### 1.3 扩展安装
 
@@ -33,20 +33,20 @@
 2. 进入 Extensions。
 3. 选择 `...` → `Install From VSIX`。
 4. 选择所有列出的扩展进行安装。  
-![扩展安装图示](/01_ide-cpp/01/1.jpg)
+![扩展安装图示](/vscode-ide-docs/01_ide-cpp/01/1.jpg)
 
 #### 设置图标主题
 1. 选择 `Material Icon Theme`。
 2. 进入 `Set File Icon Theme`。
 3. 选择对应的图标。  
-![图标选择](/02_ide-java/01/3.jpg)
+![图标选择](/vscode-ide-docs/02_ide-java/01/3.jpg)
 
 ### 1.4 使用 Developer Tools 检查错误
 通过 `Ctrl+Shift+P` 打开命令面板并选择 `Developer: Toggle Developer Tools` 进行错误检查。
 
 ### 1.5 Vue 代码编写测试
 现在，您可以开始编写 Vue 代码并享受强大的 IDE 功能。  
-![Vue 代码测试](/09_ide-vue/01_install_files/1.jpg)
+![Vue 代码测试](/vscode-ide-docs/09_ide-vue/01_install_files/1.jpg)
 
 ## 2. MacOS 安装流程
 请参考上述 Windows 的安装流程。

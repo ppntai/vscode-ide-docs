@@ -10,7 +10,7 @@
 ### 1.2 安装 ide-python
 - 解压并双击 `ide-python.exe` 文件进行启动。
 - 启动后的图标如下：  
-![IDE Python 安装图标](/06_ide-python/01_install_files/2.jpg)
+![IDE Python 安装图标](/vscode-ide-docs/06_ide-python/01_install_files/2.jpg)
 
 ### 1.3 扩展安装
 
@@ -33,14 +33,14 @@
 2. 进入 Extensions。
 3. 选择 `...` → `Install From VSIX`。
 4. 选择所有与 Python 相关的扩展进行安装（程序会根据您的操作系统选择对应的扩展进行安装）。  
-![安装图示](/01_ide-cpp/01/1.jpg)
+![安装图示](/vscode-ide-docs/01_ide-cpp/01/1.jpg)
 5. 使用相同的方法安装其他扩展。
 
 #### 设置图标主题
 1. 选择 `Material Icon Theme`。
 2. 进入 `Set File Icon Theme`。
 3. 选择对应的图标。  
-![图标选择](/02_ide-java/01/3.jpg)
+![图标选择](/vscode-ide-docs/02_ide-java/01/3.jpg)
 
 ### 1.4 配置 ide-python
 
@@ -70,7 +70,7 @@
 print("Hello world!")
 ```
 代码执行结果：  
-![代码运行结果](/06_ide-python/01_install_files/1.jpg)
+![代码运行结果](/vscode-ide-docs/06_ide-python/01_install_files/1.jpg)
 
 ## 2. MacOS 安装流程
 请参考上述 Windows 的安装流程。
